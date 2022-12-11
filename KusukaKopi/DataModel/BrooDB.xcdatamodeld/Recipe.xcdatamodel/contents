@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21512" systemVersion="22A380" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Recipe" representedClassName="Recipe" syncable="YES" codeGenerationType="class">
+        <attribute name="bean_altitude" optional="YES" attributeType="String"/>
+        <attribute name="bean_location" optional="YES" attributeType="String"/>
+        <attribute name="bean_name" optional="YES" attributeType="String"/>
+        <attribute name="bean_process" optional="YES" attributeType="String"/>
+        <attribute name="bean_variety" optional="YES" attributeType="String"/>
+        <attribute name="flavour_review_acidity" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="flavour_review_after_taste" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="flavour_review_aroma" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="flavour_review_body" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="flavour_review_flavour" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="flavour_review_overall" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="flavour_review_sweetness" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="recipe_name" optional="YES" attributeType="String"/>
+        <attribute name="recipe_review_brewtime" optional="YES" attributeType="String"/>
+        <attribute name="recipe_review_dose" optional="YES" attributeType="String"/>
+        <attribute name="recipe_review_grindsize" optional="YES" attributeType="String"/>
+        <attribute name="recipe_review_ratio" optional="YES" attributeType="String"/>
+        <attribute name="recipe_review_temperature" optional="YES" attributeType="String"/>
+        <attribute name="recipe_review_water" optional="YES" attributeType="String"/>
+        <attribute name="variable_brewtime_minute" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="variable_brewtime_second" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="variable_dose" optional="YES" attributeType="String"/>
+        <attribute name="variable_grindsize" optional="YES" attributeType="String"/>
+        <attribute name="variable_ratio" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="variable_temperature" optional="YES" attributeType="String"/>
+        <attribute name="variable_water" optional="YES" attributeType="String"/>
+    </entity>
+</model>
